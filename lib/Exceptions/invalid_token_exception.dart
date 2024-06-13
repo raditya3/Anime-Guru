@@ -1,0 +1,3 @@
+class InvalidTokenException implements Exception {
+
+}
