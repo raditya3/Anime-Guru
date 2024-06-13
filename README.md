@@ -1,14 +1,15 @@
-# MyAnimeList Client
+MyAnimeList Client
+======
 
 MyAnimeList Client is a Flutter application that allows users to manage their anime lists, view recommendations, and keep track of their watched and completed anime. This app leverages the MyAnimeList API to provide a seamless anime tracking experience.
 
 ## Features
- - View Anime Recommendations: Get personalized anime recommendations based on your viewing history.
-Track Watched Anime: Mark anime as watched and keep track of your progress.
- - Completed Anime List: View a list of anime you have completed watching.
- - Search Anime: Find new anime to watch.
- - Detailed Anime Info: View detailed information about each anime, including synopsis, rating, and more.
- - User Authentication: Secure login using MyAnimeList credentials.
+ - **View Anime Recommendations**: Get personalized anime recommendations based on your viewing history.
+ - **Track Watched Anime**: Mark anime as watched and keep track of your progress.
+ - **Completed Anime List**: View a list of anime you have completed watching.
+ - **Search Anime**: Find new anime to watch.
+ - **Detailed Anime Info**: View detailed information about each anime, including synopsis, rating, and more.
+ - **User Authentication**: Secure login using MyAnimeList credentials.
 
 
 ## Getting Started
@@ -48,7 +49,7 @@ Track Watched Anime: Mark anime as watched and keep track of your progress.
     ```
 ## Usage
 1. Login: Use your MyAnimeList credentials to log in.
-2. View Recommendations: Navigate to the recommendations tab to see anime recommendations.
+2. View Recommendations: You will be redirected to home page where you can view recommendations
 3. Track Anime: Mark anime as watched or completed from the anime detail screen.
 4. Search Anime: Use the search feature to find and add new anime to your list.
 

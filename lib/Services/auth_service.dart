@@ -17,8 +17,8 @@ import '../Pages/login_or_home.dart';
 class AuthService {
   static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
   final _storage = const FlutterSecureStorage();
-  final String _clientId = dotenv.env["ClientId"] ?? '';
-  final String _clientSecret = dotenv.env["ClientSecret"] ?? '';
+  final String _clientId = dotenv.env["CLIENT_ID"] ?? '';
+  final String _clientSecret = dotenv.env["CLIENT_SECRET"] ?? '';
   final String _scheme = kIsWeb ? 'http' : 'com.raditya3.animediscovery';
   final String _domain = kIsWeb ? 'localhost:8089/auth.html' : 'callback';
   late final String _redirectUri = '$_scheme://$_domain';
