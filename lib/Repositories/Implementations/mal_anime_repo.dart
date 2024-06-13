@@ -12,7 +12,7 @@ class MalAnimeRepo implements AnimeRepo {
   final AuthService authService = AuthService.getAuthService();
   final InterceptedClient http = CustomHttpClient.getClient();
 
-  // TODO: This needs to be remove
+  // We should try not to use jikan api
   final jikan = Jikan();
 
   @override

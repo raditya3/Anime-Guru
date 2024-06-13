@@ -17,7 +17,6 @@ class _AnimeRatingDialogState extends State<AnimeRatingDialog> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _selectedRating = widget.initialRating;
   }
